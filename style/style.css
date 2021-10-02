@@ -1,0 +1,36 @@
+.container{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: yellow;
+    padding: 0;
+}
+
+.pontos{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.game-over{
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.score {
+    color: #00ff00;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
