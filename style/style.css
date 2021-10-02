@@ -34,3 +34,13 @@ h1{
     font-size: 20px;
     padding-bottom: 20px;
 }
+
+.bg-footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
