@@ -18,11 +18,14 @@ let food = {
 }
 let score = 0;
 let background = new Image();
-background.src = "/img/snake-bg.jpg";
+background.onload = function(){}
+background.src = "img/snake-bg.jpg";
 let foodicon = new Image();
-foodicon.src = "/img/food.png";
+foodicon.onload = function(){}
+foodicon.src = "img/food.png";
 let snakeicon = new Image();
-snakeicon.src = "/img/snake.png";
+snakeicon.onload = function(){}
+snakeicon.src = "img/snake.png";
 
 function criarBG() {
     /*Desenha o retângulo*/
